@@ -1,0 +1,109 @@
+*{
+    
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+.container{
+    
+    width: 1140px;
+    margin: auto;
+    height: 400px;
+    
+}
+.logo{
+ width: 100px;
+ height: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;  
+}
+.navig, .menu
+{
+    display: flex;
+    align-items: center;
+}
+.menu li a:hover{
+    color: green;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    padding: 40px 0;
+}
+.menu li {
+    font-size: 12px;
+    margin-right: 100px;
+    margin-top: 30px; 
+}
+.menu{
+    margin-left: 240px;
+}
+.phone{
+margin-left: auto;
+color: aliceblue;
+transition: all 0.5 ease;
+}
+.phone a:hover{
+    font-size: 30px;
+    color: blue;
+}
+ul li{
+    display: block; 
+    margin: 0;
+    padding: 0;
+}
+
+.logo:hover {
+    border-radius: 70%;
+  }
+.text{
+    color:red;
+    margin-top: 130px;
+    
+}
+.text p{
+margin-top:20px;
+color:blanchedalmond;
+}
+.text a{
+    background-color: yellow;
+    color:black;
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding:12px 0;
+    font-family: cursive;
+    margin-top:20px;
+    transform: all 2s ease;
+}
+
+.text a:hover{
+    background-color: chartreuse;
+    border-radius: 60%;
+    color: darkblue;
+    transition: 2s;
+
+}
+.imgg {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-top: 120px;
+
+}
+
+.imgg:hover{
+    transform: rotate(360deg);
+    transition: 4s;
+    margin-right: 90px;;
+}
+
+.textt{
+    display: flex;
+ 
+}
